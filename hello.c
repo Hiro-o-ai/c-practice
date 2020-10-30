@@ -18,3 +18,8 @@ int main(void) {
   printf("x = %d, y = %f, c = %c\n", x, y, c);
   return 0;
 }
+
+int main(void) {
+  printf("hello world!");
+  return 0;
+}
