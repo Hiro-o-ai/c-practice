@@ -6,7 +6,7 @@
 データ型
 Int(整数) %d
 float(実数) %f
-char(文字) %c
+char(1文字) %c
 
 */
 
@@ -16,6 +16,7 @@ int main(void) {
   char c = 'A';
 
   printf("x = %d, y = %f, c = %c\n", x, y, c);
+  // 出力する文字列 = それぞれのデータ型を示す記号, 変数
   return 0;
 }
 
